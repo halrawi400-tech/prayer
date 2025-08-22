@@ -1,0 +1,74 @@
+/* إعدادات أساسية للصفحة */
+body {
+    font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom, #f0f8ff, #d0e6f7);
+            margin: 0;
+                padding: 0;
+                    color: #333;
+                    }
+
+                    /* رأس الصفحة */
+                    header {
+                        background-color: #1e90ff;
+                            color: white;
+                                text-align: center;
+                                    padding: 20px 10px;
+                                        font-size: 24px;
+                                            font-weight: bold;
+                                            }
+
+                                            /* قسم مواقيت الصلاة */
+                                            #prayers {
+                                                max-width: 500px;
+                                                    margin: 20px auto;
+                                                        background-color: #ffffffcc; /* شفاف قليلاً */
+                                                            padding: 20px;
+                                                                border-radius: 15px;
+                                                                    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                                                                    }
+
+                                                                    /* قائمة الصلوات */
+                                                                    #prayers ul {
+                                                                        list-style: none;
+                                                                            padding: 0;
+                                                                            }
+
+                                                                            #prayers li {
+                                                                                padding: 10px;
+                                                                                    margin: 5px 0;
+                                                                                        border-bottom: 1px solid #ddd;
+                                                                                            font-size: 18px;
+                                                                                            }
+
+                                                                                            /* إبراز الصلاة الحالية */
+                                                                                            #prayers li.current {
+                                                                                                background-color: #ffdd57;
+                                                                                                    border-radius: 5px;
+                                                                                                    }
+
+                                                                                                    /* قسم السنن والنوافل */
+                                                                                                    #extras {
+                                                                                                        max-width: 500px;
+                                                                                                            margin: 20px auto;
+                                                                                                                background-color: #ffffffcc;
+                                                                                                                    padding: 20px;
+                                                                                                                        border-radius: 15px;
+                                                                                                                            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                                                                                                                            }
+
+                                                                                                                            #extras h2 {
+                                                                                                                                text-align: center;
+                                                                                                                                    color: #1e90ff;
+                                                                                                                                        margin-bottom: 15px;
+                                                                                                                                        }
+
+                                                                                                                                        #extras ul {
+                                                                                                                                            list-style: circle;
+                                                                                                                                                padding-left: 20px;
+                                                                                                                                                }
+
+                                                                                                                                                #extras li {
+                                                                                                                                                    padding: 5px 0;
+                                                                                                                                                        font-size: 16px;
+                                                                                                                                                        }
+                                                                                                                                                        
